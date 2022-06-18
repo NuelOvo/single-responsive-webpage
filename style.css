@@ -1,0 +1,169 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@700,600,500,400');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    width:100%;
+    min-height:100vh;
+    display: flex;
+    justify-content:center;
+    align-content:center;
+    flex-direction: row;
+    background-color: rgb(245, 117, 136) ;
+    /* background-image: url(images/favicon-32x32.png), url(images/bg-intro-desktop.png); */
+    background-size: 50px;
+    /* background-position: 100px, 100px; */
+    background-blend-mode: soft-light;
+}
+
+.container{
+    width:100%;
+    max-width:1440px;
+    display:flex;
+    justify-content:center;
+    align-content:center;
+    flex-flow:wrap;
+}
+
+.box{
+    width: 500px;
+    padding: 15px;
+    min-height: 430px;
+}
+
+.content{
+    padding-top: 100px;
+}
+
+.box-a .content .inner-content{
+    color: white;
+    font-family: 'poppins', sans-serif;
+    /* font-weight: 700; */
+}
+
+
+
+.box-a .content .inner-content  h1{
+    color: white;
+    font-family: 'poppins', sans-serif;
+    font-weight: 700;
+    padding-bottom: 35px;
+    width: 90%;
+}
+
+.box-a .content .inner-content p {
+    color: white;
+    font-family: 'poppins', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    width: 80%;
+}
+
+/* second div with form style section */
+/* .box-b .form-wrapper {
+    background-color: white;
+} */
+span{
+    font-weight: 700;
+    font-size: 16px;
+}
+
+.box-b .inner-content-b .copy{
+    background-color: hsl(248, 32%, 49%);
+    padding:10px;
+    margin-bottom: 30px;
+    color: white;
+    font-family: 'poppins', sans-serif;
+    font-weight: lighter;
+    border-radius: 7px;
+    /* margin: auto; */
+    width: 100%;
+    box-shadow: 1px 3px #666363;
+}
+
+.box-b .inner-content-b .copy p{
+    margin-left: 18%;
+}
+
+.form-wrapper{
+    background-color: white;
+    height: 280px;
+    border-radius: 7px;
+    padding: 20px;
+    box-shadow: 1px 3px #666363;
+}
+
+.form-wrapper .frm{
+    padding:5px;
+    
+}
+
+.form-wrapper input{
+    padding: 8px;
+    width: 95%;
+    border: 0.1px;
+    border-radius: 7px;
+    border: solid 1px hsl(0, 0%, 95%);
+    box-shadow: -1px -1px 1px 1px #bebebe;
+
+}
+
+
+
+
+
+.button{
+    background-color:hsl(154, 59%, 51%) ;
+    color: rgb(248, 246, 246);
+    border: none;
+    border-radius: 7px;
+    padding: 15px 32px;
+    width: 100%;
+    font-size: 16px;
+    font-weight: 600;
+    font-family: 'poppins', sans-serif;
+    text-shadow: 1px 1px rgb(29, 28, 28);
+    margin-top: 15px;
+    box-shadow: 1px 2px #857d7d;
+
+    
+}
+
+form p{
+    margin-top: 7%;
+    font-family: 'poppins', sans-serif;
+    font-size:14px;
+    width: 100%;
+    justify-content: center;
+}
+
+#terms{
+    color: red;
+}
+
+/* Psuedo Effects */
+.form-wrapper:hover{
+    box-shadow: -1px -1px 1px 1px #bebebe;
+}
+
+.form-wrapper input:hover {
+    box-shadow:-1px -1px 3px 3px #888888;
+    transition: 0.42s;
+}
+
+.button:hover{
+    background-color: hsl(154, 87%, 36%);
+    color: hsl(0, 0%, 95%);
+    box-shadow: 3px 3px #888888;
+    transition: 0.42s;
+}
+
+
+@media ( max-width:375px){
+    body{
+        width: 100%;
+    }
+}
